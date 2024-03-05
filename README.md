@@ -27,7 +27,15 @@ Install Instructions: https://github.com/git-ecosystem/git-credential-manager/bl
 
 
 ## Basic Usage
-### TODO: Clone Repo
+### Clone Repo
+Copy the URL for the repo you wish to clone (download to your computer):
+
+Open the GitHub page for the repo you want to clone, like this repo: https://github.com/Hawks-Code/Git-Crash-Course
+
+![image](https://drive.google.com/uc?export=view&id=1ewnJ-T4IkxMIQ3DVXTTUL0vwlbjImD-z)
+
+TODO: make a directly to checkout project, command to checkout, ls to see files
+
 ### TODO: Make a Change
 ### TODO: Commit a Change
 ### TODO: Push a Change
