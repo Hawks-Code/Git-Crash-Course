@@ -15,8 +15,16 @@ It's a tool used to track and organize code changes, typically across a team of 
 **GitHub** - cloud service and accompanying website that hosts code repositories so others can view and share them. Handles authorization for who can view/edit the code. Free for individuals, even private repositories, but advanced collaboration features are paid, public repos get a lot of advanced features free.
 
 ## Setup
-### TODO: CLI Install Instructions
-### TODO: Authorization Instructions
+### Git CLI Install
+Check if you already have git installed, in a terminal run: `git -v` If that outputs a version number you already have git!
+
+If not download and install it: https://git-scm.com/downloads
+
+### Git Credentials Manager Install
+[Git Credentials Manager](https://github.com/git-ecosystem/git-credential-manager?tab=readme-ov-file) makes authenticating with GitHub much easier, it will pull up a website to have you sign in when needed for various git actions. Once installed it just works in the background with normal git commands.
+
+Install Instructions: https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md
+
 
 ## Basic Usage
 ### TODO: Clone Repo
