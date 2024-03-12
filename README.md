@@ -80,7 +80,32 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ### Commit a Change
-Once you have completed a code change you 'commit' it
+Once you have completed a code change you 'commit' it.
+
+Run ```git status``` to see the current changed files. Note it will say these files are "not staged for commit" meaning it sees the file was changed but you need to tell Git to include changes to that file in a new commit. 
+
+If you want to include all of the files you changed/added at once run: ```git add -A```
+```
+> git add -A
+> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+```
+
+**Add a useful message!**
+
+Each commit has a string message associated with it. It should at the least include a few words describing the change made, and ideally link to further resources explaining why this change was needed.
+
+I find the easiest way to specify the message is with the ```-m``` flag with ```git commit```, if you just run ```git commit``` on its own you will be prompted for a message in an annoying editor.
+
+```git commit -m "updated README documentation"```
+
+**Now you have a commit!** but it's only on your computer (on your local branch) Keep reading to 'push' your commit to GitHub.
+
 ### TODO: Push a Change
 
 ## Committing to Hawks Code
