@@ -106,7 +106,12 @@ I find the easiest way to specify the message is with the ```-m``` flag with ```
 
 **Now you have a commit!** but it's only on your computer (on your local branch) Keep reading to 'push' your commit to GitHub.
 
-### TODO: Push a Change
+
+### Push a Change
+
+If you have full access to whatever remote repository you are trying to push to you can simply run ```git push```. However for some of the repositories the club uses commits must be reviewed by someone else in the club before they can be pushed to the **main** branch.
+
+For that you will need to create a 'pull request'.
 
 ## Committing to Hawks Code
 ### TODO: How to Pull Request
