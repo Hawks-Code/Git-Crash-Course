@@ -34,7 +34,18 @@ Open the GitHub page for the repo you want to clone, like this repo: https://git
 
 ![image](https://drive.google.com/uc?export=view&id=1ewnJ-T4IkxMIQ3DVXTTUL0vwlbjImD-z)
 
-TODO: make a directly to checkout project, command to checkout, ls to see files
+Navigate to where you want to download the project. If you are unsure a folder in your home directory is a good place to start! (assuming unix/powershell)
+
+```cd ~/``` navigate to home directory, appreviated ~/
+
+```mkdir workspace``` create folder to manage coding projects in home dir.
+
+```cd workspace``` open newly created folder.
+
+```git clone https://github.com/Hawks-Code/Git-Crash-Course.git``` paste the URL after the command ```git clone``` to download the repo from GitHub.
+
+```cd Git-Crash-Course``` open the cloned project and start coding!
+
 
 ### TODO: Make a Change
 ### TODO: Commit a Change
